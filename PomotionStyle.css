@@ -1,0 +1,86 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 30, 2020, 11:10:36 AM
+    Author     : 19147
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#usernameDisplay{
+    background: black;
+    width: 100%;
+    height: 20px;
+}
+
+#usernameFromDB{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.Description h1{
+    margin-top: 50px;
+    color : darkcyan;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.Description{
+    
+    padding: 20px 20px;
+    width: 100%;
+    height: 220px;
+    background: black;
+}
+input{
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px;
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    length: 100px;
+}
+input:hover{
+    color: red;
+}
+
+
+.prompt h2{
+    color : white;
+    text-align: center;
+    
+}
+
+
+.prompt{
+    padding: 20px 20px;
+    width: 100%;
+    height: 400px;
+    background: black;
+    
+}
+
+
+#footer {
+    padding: 20px 20px;
+    background: darkcyan;
+    width:100%;
+    height: 200px;
+}
+
+#footerInfor{
+    margin-top: 170px;
+    font-size: 17px;
+}
+
+
