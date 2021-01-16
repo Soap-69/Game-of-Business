@@ -1,0 +1,85 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 30, 2020, 3:56:38 PM
+    Author     : mingz
+*/
+
+body{margin: 0; position: relative;}
+body.pop-up{background: #222;}
+*{
+  font-family: Calibri, sans-serif; 
+  font-weight: normal;
+  color: #333;
+}
+h1{
+  font-size: 48px;
+  margin: 10px 0;
+}
+p{
+  margin-bottom: 40px;
+}
+#pop-up{
+  position: relative; 
+  top: 200px; 
+  width: 500px; 
+  margin:0 auto; 
+  text-align: center;
+}
+#pop-up .container{
+  background: #f0e4d4; 
+  padding: 30px; 
+  position: absolute; 
+  top: 50px; 
+  width: 100%; 
+  box-sizing: border-box;
+  border-radius: 5px 5px 5px 5px;
+}
+#pop-up input{
+  padding: 10px;
+  background-color: #f0e4d4;
+  border: 0;
+  border-radius: 10px 0 0 10px;
+  border: 1px solid #f0e4d4;
+  font-size: 18px;
+}
+
+
+
+/*drop-down box*/
+/*select{
+  padding: 8px;
+  border: 1;
+  color: #fff;
+  background: #F6EEEC;
+  margin-left: -5px;
+  margin-left: -5px;
+  border-radius: 0 10px 10px 0;
+  border: 2px solid #333;
+  font-size: 18px;
+}*/
+
+
+/*//Some aniomations here, try to get the introduction page looks more smooth//*/
+/*#pop up{
+	top: -400px;
+	animation: drop 0.5s ease forwards;
+			swing 2s 2s ease forwards;
+}*/
+
+
+@Keyframes drop{
+	0%{opacity:0}
+	70%{ transform: translateY(700px)}
+	100%{transform: translateY(650px);opacity: 1;}
+}
+
+@Keyframes swing{
+	0%{transform: translateY(650px) rotateZ(0deg)}
+	40%{transform: translateY(650px) rotateZ(98deg)}
+	70%{transform: translateY(650px) rotateZ(78deg)}
+	100%{transform: translateY(650px) rotateZ(75deg)}
+}
